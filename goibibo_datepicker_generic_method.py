@@ -37,7 +37,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.goibibo.com/")
 
 # Wait for the page to load
-time.sleep(5)  # Adjust the sleep time if necessary to handle any initial loading or popups
+time.sleep(5)
 
 # Click the 'Departure' element to open the date picker
 departure_element = WebDriverWait(driver, 10).until(
